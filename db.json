@@ -17,6 +17,15 @@
       "description": "test",
       "type": "typeA",
       "id": 2
+    },
+    {
+      "conditions": true,
+      "period": "1",
+      "name": "Juanjo",
+      "email": "Juanjo@gmail.com",
+      "description": "Tarea de marvel",
+      "type": "typeB",
+      "id": 3
     }
   ],
   "users": []
