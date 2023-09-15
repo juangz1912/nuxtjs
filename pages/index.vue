@@ -52,16 +52,17 @@
           Warning: After 3 consecutive failed login attempts, you account will be temporarily locked for three hours. If you must login now, you can also click "Forgot login password?" below to reset the login password.
         </v-card-text>
       </v-card>
-
-      <v-btn
-        block
-        class="mb-8"
-        color="blue"
-        size="large"
-        variant="tonal"
-      >
-        Log In
-      </v-btn>
+      <NuxtLink to="/inicio"> 
+        <v-btn
+          block
+          class="mb-8"
+          color="blue"
+          size="large"
+          variant="tonal"
+        >
+          Log In
+        </v-btn>
+      </NuxtLink>  
 
       <v-card-text class="text-center">
         <a
