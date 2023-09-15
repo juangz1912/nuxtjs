@@ -2,8 +2,8 @@
   <div>
     <v-img
       class="mx-auto my-6"
-      max-width="228"
-      src="https://cdn.vuetifyjs.com/docs/images/logos/vuetify-logo-v3-slim-text-light.svg"
+      width="248"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Koenigsegg_logotype2014.png/1200px-Koenigsegg_logotype2014.png"
     ></v-img>
 
     <v-card
