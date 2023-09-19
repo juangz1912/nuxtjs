@@ -45,11 +45,11 @@
 
       <v-card
         class="mb-12"
-        color="surface-variant"
+        color="yellow" 
         variant="tonal"
       >
         <v-card-text class="text-medium-emphasis text-caption">
-          Warning: After 3 consecutive failed login attempts, you account will be temporarily locked for three hours. If you must login now, you can also click "Forgot login password?" below to reset the login password.
+          Warning: After 3 consecutive failed login attempts, your account will be temporarily locked for three hours. If you must log in now, you can also click "Forgot login password?" below to reset the login password.
         </v-card-text>
       </v-card>
       <NuxtLink to="/inicio"> 
@@ -77,8 +77,21 @@
     </v-card>
   </div>
 </template>
+
 <script>
 definePageMeta({
   layout: "blank",
 });
+export default {
+  data() {
+    return {
+      visible: false, // Nuevo data property para controlar la visibilidad de la contraseña
+    };
+  },
+  methods: {
+    togglePasswordVisibility() {
+      this.visible = !this.visible;
+    },
+  },
+};
 </script>
