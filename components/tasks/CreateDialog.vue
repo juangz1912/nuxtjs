@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-btn color="primary" @click="dialog = true">
+        <v-btn color="blue-lighten-3" @click="dialog = true">
             Crear tarea
         </v-btn>
 

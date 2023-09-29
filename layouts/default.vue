@@ -5,9 +5,9 @@
     <v-navigation-drawer>
       <v-list>
         <!-- Navegacion -->
-       <v-list-item  to="/"><v-icon icon="mdi-home" /> Inicio </v-list-item> 
-       <v-list-item title="Tareas" to="/tareas"></v-list-item> 
-       <v-list-item title="Ayuda" to="/docs/ayuda"></v-list-item> 
+       <v-list-item  to="/tareas"><v-icon icon="mdi-home" /> Inicio </v-list-item> 
+       <v-list-item title="Ayuda" to="/docs/ayuda"></v-list-item>
+       <v-list-item title="Salir" to="/"></v-list-item>  
       </v-list>
     </v-navigation-drawer>
     <v-main class="align-center justify-center">
